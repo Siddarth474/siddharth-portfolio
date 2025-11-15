@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Siddharth's Portfolio
 
-## Getting Started
+A clean and modern full-stack web developer portfolio showcasing projects, skills, and a responsive UI. Built using **Next.js**, **Tailwind CSS**, **Framer Motion**, and **Resend** for email handling.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Tech Stack
+
+* **Frontend**: Next.js, React.js, Tailwind CSS, Framer Motion
+* **Backend**: Next.js API Routes, Resend (email service)
+* **UI Components**: Shadcn UI, React Icons
+* **Deployment**: Vercel
+
+---
+
+
+## ✨ Features
+
+### **1. Fully Responsive UI**
+
+* Modern layout with Tailwind CSS
+* Mobile-first design
+
+### **2. Smooth Animations**
+
+* Page transitions and section animations powered by **Framer Motion**
+
+### **3. Contact Form with Email Support**
+
+* User messages delivered directly using **Resend API**
+* One email templates:
+
+  * **ContactNotification** (sent to owner)
+
+### **4. Clean Code & Folder Structure**
+
+* Easy to navigate
+* Organized into components, API routes, and email templates
+
+---
+
+## 📬 Contact Form Setup
+
+Add environment variables in `.env.local`:
+
+```
+RESEND_API_KEY=re_xxxxxxxx
+TO_EMAIL=youremail@gmail.com
+FROM_NAME="Siddharth Portfolio"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The API route uses Resend + React Email:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+* Sends you a styled email with user info
+* Sends user a confirmation email (free plan: only to your own email)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Running Locally
 
-To learn more about Next.js, take a look at the following resources:
+Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run development server:
 
-## Deploy on Vercel
+```
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open project:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+http://localhost:3000
+```
+
+---
+
+## 🔗 Deployment
+
+Recommended: **Vercel**
+
+* Auto-optimized for Next.js
+* Environment variables supported
+
+Deploy with one click:
+
+```
+vercel
+```
+
+---
+
+## 🧑‍💻 About Me
+
+Full-stack web developer skilled in building end-to-end modern web applications. Passionate about clean UI, smooth UX, and scalable backend systems.
+
+---
+
+## 📞 Contact
+
+* Email: [siddharthprusty93@gmail.com](mailto:youremail@example.com)
+* GitHub: [https://github.com/Siddarth474](https://github.com/yourusername)
+* Portfolio: [https://siddharth-portfolio-lilac.vercel.app/home](https://yourportfolio.com)
+
+---
+
+Made with ❤️ using Next.js & React
