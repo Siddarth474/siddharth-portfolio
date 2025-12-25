@@ -16,10 +16,10 @@ const Header = () => {
      bg-black/40 backdrop-blur-md border-b border-white/10 z-50">
         <div className='md:ml-8 flex items-center gap-2 text-xl sm:text-2xl '>
             <GiRobotAntennas className='text-orange-500 mb-1' />
-            <h1 className="font-bold bg-linear-to-r from-orange-400 to-red-500 bg-clip-text 
+            <Link href={'/home'} className="font-bold bg-linear-to-r from-orange-400 to-red-500 bg-clip-text 
             text-transparent">
                 Siddharth Prusty
-            </h1>
+            </Link>
         </div>
         <div className='hidden md:flex items-center gap-7 font-semibold mr-20'>
             <Link href={'/home'} className="cursor-pointer hover:bg-linear-to-r hover:from-orange-400 hover:to-red-500 hover:text-transparent 

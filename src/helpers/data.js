@@ -13,13 +13,14 @@ export const skillsList = [
   { name: 'JavaScript', icon: iconWrap(<FaJsSquare size={30}/>, 'text-yellow-400') },
   { name: 'React.js', icon: iconWrap(<FaReact size={30}/>, 'text-cyan-500') },
   { name: 'Next.js', icon: iconWrap(<SiNextdotjs size={30}/>, 'text-white') },
+  { name: 'TypeScript', icon: iconWrap(<SiTypescript size={30}/>, 'text-blue-500') },
   { name: 'Tailwind', icon: iconWrap(<SiTailwindcss size={30}/>, 'text-teal-400') },
   { name: 'Git', icon: iconWrap(<FaGitAlt size={30}/>, 'text-orange-600') },
   { name: 'Node.js', icon: iconWrap(<FaNodeJs size={30} />, 'text-green-600') },
   { name: 'Express.js', icon: iconWrap(<SiExpress size={30}/>, 'text-yellow-400') },
   { name: 'MongoDB', icon: iconWrap(<SiMongodb size={30}/>, 'text-green-600') },
   { name: 'C++', icon: iconWrap(<SiCplusplus size={30}/>, 'text-blue-600') },
-  { name: 'TypeScript', icon: iconWrap(<SiTypescript size={30}/>, 'text-blue-500') },
+  
 ];
 
 export const workExperiences = [
@@ -47,6 +48,24 @@ export const socialMedia = [
 export const projectsDetails = [
   {
     id: 1,
+    title: 'Community Issue Web Application',
+    image: '/images/Map.jpeg',
+    description:
+      'A real-time civic engagement platform that lets citizens report, track, and prioritize local infrastructure issues through an interactive map. Users can submit issues with images, vote on priority, and discuss publicly, while users can monitor status and resolution progress in real time. The system improves visibility, accountability, and response efficiency in community issue management.',
+    period: 'October 2025 – November 2025',
+    tech: [
+      'Next.js',
+      'Socket.IO',
+      'MongoDB',
+      'Leaflet.js',
+      'Cloudinary',
+      'Gemini API'
+    ],
+    repoLink: 'https://github.com/Siddarth474/community-issue-web-app.git',
+    liveUrl: 'https://community-issue-web-app.vercel.app/'
+  },
+  {
+    id: 2,
     title: 'Password Vault',
     image: '/images/next-pass.jpeg',
     description:
@@ -62,7 +81,7 @@ export const projectsDetails = [
     liveUrl: 'https://next-password-vault-chi.vercel.app/' 
   },
   {
-    id: 2,
+    id: 3,
     title: 'Expense Tracker Web App',
     image: '/images/ExpenseTracker.jpeg',
     description:
@@ -78,22 +97,6 @@ export const projectsDetails = [
     repoLink: 'https://github.com/Siddarth474/MERN-Stack-Expense-Tracker.git',
     liveUrl: 'https://mern-stack-expense-tracker.vercel.app/'
   },
-  {
-    id: 3,
-    title: 'MindMap AI - Smart Visual Note-Taking App',
-    image: '/images/mind-map.jpeg',
-    description:
-      'An interactive visual note-taking app using React Flow and Gemini API for AI-powered idea expansion, enabling users to create and connect ideas dynamically with persistent localStorage state.',
-    period: 'June 2025 – July 2025',
-    tech: [
-      'React.js',
-      'React Flow',
-      'Gemini API',
-      'Tailwind CSS'
-    ],
-    repoLink: 'https://github.com/Siddarth474/Mind-Map-AI-Notes.git',
-    liveUrl: 'https://mind-map-ai-notes.vercel.app/'
-  }
 ];
 
 

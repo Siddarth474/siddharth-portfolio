@@ -24,7 +24,7 @@ export default function ResumeSection() {
 
       {/* Button */}
       <a
-        href="https://drive.google.com/file/d/1d35yaNfqDczv4QHcozxkWcJvmtFoAM8Y/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1yNQqvWFl2U3pm66P8p3qYk2JjdTQLsqn/view?usp=drive_link"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white font-medium 
