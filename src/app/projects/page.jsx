@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div className="w-full bg-gray-950 min-h-screen">
       <Header />
-      <div className="w-full py-10 px-8 flex justify-center">
+      <div className="w-full py-10 px-8 flex justify-center text-white">
         <div className="mt-20 sm:mt-26 w-full lg:w-[80%]">
           <h1 className="text-3xl sm:text-5xl font-semibold">Projects</h1>
           <p className="text-lg sm:text-2xl text-gray-400 sm:mt-2 ">

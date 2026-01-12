@@ -3,7 +3,7 @@ import React from "react";
 
 const SkillsSection = () => {
   return (
-    <div className="w-full flex flex-col items-center gap-5 mt-10 bg-black px-8 py-15">
+    <div className="w-full flex flex-col items-center gap-5 mt-10 bg-black px-8 py-15 text-white">
       <div className="mb-26 text-center">
         <h1 className="text-[35px] font-bold mb-2">Technical Skills</h1>
         <p className="text-lg text-gray-400">

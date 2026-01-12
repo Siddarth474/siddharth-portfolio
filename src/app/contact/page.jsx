@@ -6,7 +6,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full bg-gray-950'>
         <Header />
         <ContactSection />
         <Footer />

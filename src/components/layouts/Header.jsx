@@ -13,7 +13,7 @@ const Header = () => {
     
   return (
     <div className="fixed top-0 w-full flex items-center justify-between p-5 
-     bg-black/40 backdrop-blur-md border-b border-white/10 z-50">
+     bg-black/40 backdrop-blur-md border-b border-white/10 z-50 text-white">
         <div className='md:ml-8 flex items-center gap-2 text-xl sm:text-2xl '>
             <GiRobotAntennas className='text-orange-500 mb-1' />
             <Link href={'/home'} className="font-bold bg-linear-to-r from-orange-400 to-red-500 bg-clip-text 

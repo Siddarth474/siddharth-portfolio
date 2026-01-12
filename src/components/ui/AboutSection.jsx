@@ -9,7 +9,7 @@ const AboutSection = () => {
 
   return (
     <div className='w-full py-10 px-8 mb-8'>
-        <div className='flex flex-col items-center bg-gray-950 mt-20 sm:mt-26 w-full'>
+        <div className='flex flex-col items-center bg-gray-950 mt-20 sm:mt-26 w-full text-white'>
           <div className='flex flex-col items-center justify-center'>
             <p className='py-1 px-4 rounded-lg my-5 border border-orange-500 shadow shadow-orange-600'>About Me</p>
             <h1 className='text-4xl font-bold'>My Personal Journey</h1>

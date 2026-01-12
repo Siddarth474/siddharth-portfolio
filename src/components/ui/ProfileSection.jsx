@@ -18,7 +18,7 @@ const Profile = () => {
             className="object-contain rounded-full"
           />
         </div>
-        <div className="mt-7 font-semibold flex flex-col items-start sm:items-center w-full">
+        <div className="mt-7 font-semibold flex flex-col items-start sm:items-center text-white w-full">
           <p className="flex items-center gap-2">
             <FaStarHalfAlt className="text-orange-500 w-4 h-4 sm:w-5 sm:h-5" />
             <span
@@ -35,7 +35,7 @@ const Profile = () => {
             Developer Focused on Frontend, Backend and AI
           </p>
         </div>
-        <div className="flex items-center justify-start sm:justify-center gap-5 my-10 w-full">
+        <div className="flex items-center justify-start sm:justify-center text-white gap-5 my-10 w-full">
           {socialMedia.map((media, ind) => (
             <a
               key={ind}
