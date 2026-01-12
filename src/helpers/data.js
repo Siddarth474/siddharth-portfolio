@@ -16,6 +16,7 @@ export const skillsList = [
   { name: 'TypeScript', icon: iconWrap(<SiTypescript size={30}/>, 'text-blue-500') },
   { name: 'Tailwind', icon: iconWrap(<SiTailwindcss size={30}/>, 'text-teal-400') },
   { name: 'Git', icon: iconWrap(<FaGitAlt size={30}/>, 'text-orange-600') },
+  { name: 'Zustand', icon: iconWrap(<span aria-label="Zustand Bear">🐻</span>, "bg-amber-500/20 text-amber-400")},
   { name: 'Node.js', icon: iconWrap(<FaNodeJs size={30} />, 'text-green-600') },
   { name: 'Express.js', icon: iconWrap(<SiExpress size={30}/>, 'text-yellow-400') },
   { name: 'MongoDB', icon: iconWrap(<SiMongodb size={30}/>, 'text-green-600') },
