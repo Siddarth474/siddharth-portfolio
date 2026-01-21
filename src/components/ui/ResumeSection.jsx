@@ -24,11 +24,11 @@ export default function ResumeSection() {
 
       {/* Button */}
       <a
-        href="https://drive.google.com/file/d/1yNQqvWFl2U3pm66P8p3qYk2JjdTQLsqn/view?usp=drive_link"
+        href="https://drive.google.com/file/d/10Ztf-R4pqmKXlhrxOg7TwqdoUpcVwFdN/view?usp=drive_link"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white font-medium 
-        py-2.5 px-5 rounded-lg transition-all duration-300"
+        py-2.5 px-5 rounded-lg transition-all duration-300 cursor-pointer"
       >
         <FaExternalLinkAlt className="text-sm" />
         View Resume
