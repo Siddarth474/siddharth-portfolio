@@ -25,11 +25,13 @@ const AboutSection = () => {
             ${tab === 1 ? 'bg-linear-to-r from-orange-500 to-red-600' : 'text-white'}`}>
               Work Experience
             </button>
+
             <button onClick={() => setTab(2)}
             className={`p-2  outline-0 rounded-lg font-semibold transition-colors duration-300 cursor-pointer
             ${tab === 2 ? 'bg-linear-to-r from-orange-500 to-red-600' : 'text-white'}`}>
               Education
             </button>
+
             <button onClick={() => setTab(3)}
             className={`p-2  outline-0 rounded-lg font-semibold transition-colors duration-300 cursor-pointer
             ${tab === 3 ? 'bg-linear-to-r from-orange-500 to-red-600' : 'text-white'}`}>
@@ -37,7 +39,7 @@ const AboutSection = () => {
             </button>
           </div>
 
-          <div className='py-9 px-7 rounded-lg my-8 max-w-4xl w-full 
+          <div className='py-9 px-7 rounded-lg my-6 max-w-4xl w-full 
           border border-orange-500 duration-200 ease-in-out'>
             <AnimatePresence mode="wait">
               <motion.div

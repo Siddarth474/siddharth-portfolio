@@ -5,7 +5,7 @@ import { CiCalendar } from "react-icons/ci";
 
 const WorkExperieneceSection = () => {
   return (
-    <>
+    <div className="flex flex-col gap-10">
       {workExperiences.map((exp) => (
         <div
           key={exp.id}
@@ -18,7 +18,7 @@ const WorkExperieneceSection = () => {
             <div className="flex flex-wrap gap-2 justify-between md:items-center flex-col md:flex-row w-full">
               <div className="text-2xl font-semibold">
                 {exp.role}
-                <p className="text-xl text-gray-400 font-light">UptoSkills</p>
+                <p className="text-xl text-gray-400 font-light">{exp.company}</p>
               </div>
               <p className="flex text-sm md:text-base text-gray-400 gap-2">
                 <CiCalendar size={20} />
@@ -43,7 +43,7 @@ const WorkExperieneceSection = () => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

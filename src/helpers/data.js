@@ -27,9 +27,25 @@ export const skillsList = [
 export const workExperiences = [
   {
     id: 1,
+    role: "Frontend Developer Intern",
+    company: "Aaziel International Technology",
+    period: "November 2025 - Feb 2026  • Gurgaon",
+    summary: "Implemented RBAC, protected routes, and a responsive Admin/User dashboard in a SaaS application to enable secure role-based access and authentication-driven navigation.",
+    details: [
+      "Built and structured a developer documentation platform using Fumadocs, streamlining onboarding and reducing ramp-up time by 30%.",
+
+      "Implemented RBAC and protected routing in a SaaS application, enabling secure, role-based access control across Admin and User dashboards.",
+
+      "Engineered scalable state management with Zustand and strict TypeScript typing, improving maintainability and reducing runtime UI errors by 25%.",
+
+      "Developed reusable UI components using shadcn/ui and Tailwind CSS, boosting UI consistency and accelerating frontend delivery by 20%."
+    ]
+  },
+  {
+    id: 2,
     role: "Web Development Intern",
     company: "UptoSkills",
-    period: "June 2025 - September 2025, • Remote",
+    period: "June 2025 - September 2025  • Remote",
     summary: "Contributed to building and enhancing educational platforms at UptoSkills, focusing on scalable full-stack development and intuitive user experiences",
     details: [
       "Contributed to both frontend (React.js, Tailwind CSS) and backend (Node.js, Express, MongoDB) development.",
