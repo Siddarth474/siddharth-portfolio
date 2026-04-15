@@ -1,5 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { SiNextdotjs, SiTailwindcss, SiExpress, SiMongodb, SiCplusplus, SiTypescript } from 'react-icons/si';
+import { BiLogoPostgresql } from "react-icons/bi";
 
 const iconWrap = (icon, color) => (
   <span className={`p-2 rounded-md ${color}`}>
@@ -20,6 +21,7 @@ export const skillsList = [
   { name: 'Node.js', icon: iconWrap(<FaNodeJs size={30} />, 'text-green-600') },
   { name: 'Express.js', icon: iconWrap(<SiExpress size={30}/>, 'text-yellow-400') },
   { name: 'MongoDB', icon: iconWrap(<SiMongodb size={30}/>, 'text-green-600') },
+  { name: 'PostgresSQL', icon: iconWrap(<BiLogoPostgresql size={30} />, 'text-blue-500')},
   { name: 'C++', icon: iconWrap(<SiCplusplus size={30}/>, 'text-blue-600') },
   
 ];
